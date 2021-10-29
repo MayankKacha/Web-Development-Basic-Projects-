@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;    
+}
+.container{
+    border: 2px solid wheat;
+    margin: 78px 70px;
+    padding: 33px;
+    width: 39%;
+    border-radius: 24px;
+    height: 375px;
+}
+.container label{
+    text-align: center;
+    margin: 1px 2px ;
+    width: 31%;
+    padding: 10px;
+
+}
+.container .form .lb .cb{
+    display: inline-block;
+    margin: 10px ;
+    padding: 10px;
+    width: 10px;
+}
+.container button{
+    display: block;
+    width: 72px;
+    margin: -12px 172px;
+    height: 34px;
+}
+.container h1{
+    text-align: center;
+    font-size: 25px;
+}
+.container h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.form input{
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    top: 18px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: large;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 13px;
+}
+ul{
+    list-style-type: none;    
+}
+.right .btn{
+    color: black;
+    font-size: 15px;
+    padding: 1px 7px;
+    background-color:lightblue;
+    cursor: pointer;
+    border: 2px solid grey;
+}
+.btn:hover{
+    background-color: blue;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: brown;   
+}
+.left img {
+    width: 30px;
+    filter: invert(100%);
+}
+.left:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
+.mid{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: relative;
+    top: 18px;
+    left: 350px;
+    
+}
+.right{
+    /* border: 2px solid blueviolet; */
+    display: inline-block;
+    position: relative;
+    top: 18px;
+    right: -575px;
+}
+.container label{
+    display: inline-block;
+
+}

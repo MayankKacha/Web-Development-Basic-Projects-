@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Gym form</title>
+</head>
+
+<body>
+    <header class="navbar">
+
+        <!-- Left  -->
+        <div class="left">
+            <img src="logo.png" alt="MK Fitness">
+            
+            Mk Fitness
+
+        </div>
+        <!-- mid -->
+        <div class="mid">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#" class="mk">Hover here to see trainer</a></li>
+            </ul>
+        </div>
+        <!-- right -->
+        <div class="right">
+            <button class="btn">
+                Call us
+            </button>
+            <button class="btn">
+                Email us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Fill the form to register.</h1>
+        <form action="bac.php" class="form">
+            <input type="text" class="inp" placeholder="Type your name here">
+            <input type="text" class="inp" placeholder="Type your mobile number here">
+            <input type="text" class="inp" placeholder="Type your Email-id here">
+            <h4>Select your goal</h4>
+            <label class="lb">Weight Reduce
+                <input type="checkbox" class="cb">
+            
+            </label>
+            <label class="lb">Body Building
+                <input type="checkbox" class="cb">
+            
+            </label>
+            <label class="lb">General Fitness
+                <input type="checkbox" class="cb" >
+            
+            </label>
+            <br>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
